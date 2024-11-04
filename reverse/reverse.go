@@ -14,6 +14,7 @@ func String(s string) string {
 		r[i], r[j] = r[j], r[i]
 	}
 	fmt.Println("私货!!")
+	fmt.Println("这里是v0.0.2")
 	return string(r)
 }
 
